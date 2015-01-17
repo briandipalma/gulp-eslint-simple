@@ -26,5 +26,8 @@
   "homepage": "https://github.com/briandipalma/gulp-eslint-simple",
   "devDependencies": {
     "eslint": "^0.11.0"
+  },
+  "dependencies": {
+    "through2": "^0.6.3"
   }
 }
