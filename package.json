@@ -1,0 +1,30 @@
+{
+  "name": "gulp-eslint-simple",
+  "version": "1.0.0",
+  "description": "Simple, stripped down Gulp ESLint plugin",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint *.js",
+    "build": "npm run test",
+    "test": "echo \"No tests specified\"",
+    "pretest": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/briandipalma/gulp-eslint-simple.git"
+  },
+  "keywords": [
+    "gulp",
+    "gulpplugin",
+    "eslint"
+  ],
+  "author": "Brian Di Palma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/briandipalma/gulp-eslint-simple/issues"
+  },
+  "homepage": "https://github.com/briandipalma/gulp-eslint-simple",
+  "devDependencies": {
+    "eslint": "^0.11.0"
+  }
+}
