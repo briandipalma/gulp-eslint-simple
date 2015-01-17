@@ -4,9 +4,9 @@
   "description": "Simple, stripped down Gulp ESLint plugin",
   "main": "index.js",
   "scripts": {
+    "test": "mocha",
     "lint": "eslint *.js",
     "build": "npm run test",
-    "test": "echo \"No tests specified\"",
     "pretest": "npm run lint"
   },
   "repository": {
@@ -25,7 +25,8 @@
   },
   "homepage": "https://github.com/briandipalma/gulp-eslint-simple",
   "devDependencies": {
-    "eslint": "^0.11.0"
+    "eslint": "^0.11.0",
+    "mocha": "^2.1.0"
   },
   "dependencies": {
     "through2": "^0.6.3"
